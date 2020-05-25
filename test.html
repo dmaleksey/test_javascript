@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <title>Тестовое задание</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div class="filter-container">
+            <h1>Витрина</h1>
+
+            <div class="filter-object">
+                <select id="subj">
+                    <option value="0">Все предметы</option>
+                </select>
+                <select id="genre">
+                    <option value="0">Все жанры</option>
+                </select>
+                <select id="grade">
+                    <option value="0">Все классы</option>
+                </select>
+
+                <div class="search-container">
+                    <input id="borderFind" type="text" placeholder="Поиск"/>
+                    <button class="courses-form-search-btn" type="submit" title="Найти" onclick="startFilter();"></button>
+                </div>
+            </div>
+            <label><input type="checkbox" id="rub-bonus"/> Бонусы/Рубли</label>
+            <div id="floatingCirclesG">
+                <div class="f_circleG" id="frotateG_01"></div>
+                <div class="f_circleG" id="frotateG_02"></div>
+                <div class="f_circleG" id="frotateG_03"></div>
+                <div class="f_circleG" id="frotateG_04"></div>
+                <div class="f_circleG" id="frotateG_05"></div>
+                <div class="f_circleG" id="frotateG_06"></div>
+                <div class="f_circleG" id="frotateG_07"></div>
+                <div class="f_circleG" id="frotateG_08"></div>
+            </div>
+            <div class="element-container"></div>
+        </div>
+		<script src="/js/catalog.js"></script>
+    </body>
+</html>
